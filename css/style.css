@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+  color: #ddd;
+}
+
+.main {
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Estilos para la sección de Bienvenida */
+#home {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  text-align: center; /* Alineación del texto dentro de la sección */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+/* Estilos para las secciones adicionales */
+.section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center; /* Alineación del contenido de las secciones */
+}
+
+.section h3 {
+  margin-bottom: 30px;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
